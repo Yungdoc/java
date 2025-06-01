@@ -1,0 +1,535 @@
+body{
+    
+}
+header{
+    width: 100%;
+    background-color: rgb(9, 233, 233); 
+    position: absolute;
+    top: 0;
+    position: fixed;
+    align-items: center;
+    padding: 0 0;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+}
+.navlink{
+    display: flex;
+    margin: 30px 20px;
+    list-style: none;
+}
+.navlink li{
+    margin: 0 20px;
+}
+.return-code{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    place-content: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/***hambuger**/
+.hambuger{
+    display: none;
+}
+/***header-container***/
+.header-container{
+    background-color: rgba(18, 27, 1, 0.938);
+    display: flex;
+    padding: 50px 15px;
+    margin-top: 5%;
+}
+.sub-header-container{
+    width: 100%;
+    font-size: 25px;
+}
+.sub-header-container h1{
+    color: #ffff;
+
+}
+.sub-header-container p{
+    color: #fff;
+    font-size: 20px;
+    width: auto;
+    line-height: 35px;
+}
+.current-tag{
+    color: #fff;
+}
+.btn1{
+    color: #fff;
+    background-color: rgba(233, 10, 184, 0.952);
+    padding: 10px 20px;
+    border: none;
+    margin: 20px 0 ;
+    border-radius: 5px;
+}
+.btn1:hover{
+    color: #fff;
+    background-color: rgba(194, 4, 169, 0.849);
+}
+.header-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+/**top-container**/
+.top-container{
+    display: flex;
+    margin: 10px 20px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.top-container img{
+    width: 100%;
+}
+.sub-top-container{
+   font-size: 22px;
+}
+.sub-top-container h5{
+    color: rgb(15, 207, 159);
+}
+.sub-top-container p{
+    
+    font-size: 22px;
+    line-height: 38px;
+}
+.btn2{
+    color: #fff;
+    background-color: purple;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btn2:hover{
+    color: #fff;
+    background-color: rgba(194, 4, 169, 0.849);
+}
+
+/**middle-policy**/
+.middle-policy{
+    text-align: center;
+    margin: 20px 10px;
+    
+    padding: 10px;
+}
+.middle-policy h3{
+    width: 90%;
+    font-size: 30px;
+    margin: auto auto;
+}
+.middle-policy p{
+    text-align: left;
+    
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+/***middle-container***/
+.middle-container{
+    display: flex;
+    text-align: center;
+    margin: 0 10px;
+    padding: 10px 0px;  
+}
+.sub-middle-cont{ 
+    background-color: red;
+    margin: 10px 10px;
+    padding: 20px 10px;
+}
+.sub-middle-cont img{
+    width: 100%;
+}
+.sub-middle-cont p{
+    width: auto;
+    text-align: left;
+    margin: 15px 0px;
+    font-size:  18px;
+    line-height: 20px;
+}
+.btn-policy{
+    color: #fff;
+    background-color: rgb(148, 6, 129);
+    padding: 10px 20px;
+    border: none;
+    margin: 20px 0;
+    text-decoration: none;
+    
+}
+.btn-policy:hover{
+    color: #fff;
+    background-color: rgba(194, 4, 169, 0.849);
+}
+/***middle-nation**/
+.middle-nation{
+    margin: 10px 10px;
+    background-color:rgb(99, 224, 197);
+    padding: 20px 20px;
+}
+.middle-nation p{
+    font-size: 15px;
+}
+
+.btn4{
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    border-style: groove;
+    border-width: 2px;
+    padding: 8px 20px;
+    margin: 20px 0;
+    float: right;
+}
+/***drive-change**/
+.drive-change{
+    text-align: center;
+}
+
+/**advocacy-container**/
+.advocacy-container{
+    display: flex;
+    margin: 10px 20px;
+    text-align: center;
+
+}
+.advocacy-card{
+    margin: 10px 10px;
+}
+.advocacy-card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.advocacy-card p{
+    text-align: center; 
+    font-size: 18px;
+    margin: 20px auto; 
+    line-height: 25px;
+     
+}
+.btn-drive{
+    color: #fff;
+    background-color: rgb(148, 6, 129);
+    padding: 10px 20px;
+    border: none;
+    margin: 20px 0;
+    text-decoration: none;
+}
+.btn-drive:hover{
+    color: #fff;
+    background-color: rgba(194, 4, 169, 0.849);
+}
+
+/**advocacy-coalition**/
+.advocacy-coalition{
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    padding: 20px 0;
+}
+.advocacy-coalition p{
+    width: 50%;
+    margin: 15px auto;
+    line-height: 25px;
+}
+.btn-view{
+    color: #fff;
+    background-color: rgb(148, 6, 129);
+    padding: 10px 20px;
+    border: none;
+    margin: 30px 0;
+    text-decoration: none;
+}
+.btn-view:hover{
+    color: #fff;
+    background-color: rgba(194, 4, 169, 0.849);
+}
+
+/***bottom-container**/
+.bottom-container{
+    display: flex;
+    text-align: center;
+    margin: 10px 20px;
+    gap: 30px;
+}
+.bottom-container img{
+    width: 100%;
+    height: auto;
+}
+.sub-bottom {
+    width: 70%;
+    text-align: left;
+    font-size: 25px;
+}
+.sub-bottom p{
+    font-size: 25px;
+    line-height: 40px;
+}
+.new-btn{
+    color: #fff;
+    border-radius: 20px;
+    padding:3px 10px;
+    background-color:red;
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn-explore{
+    color: #fff;
+    background-color: rgb(148, 6, 129);
+    padding: 8px 20px;
+    border: none;
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn-explore:hover{
+    color: #fff;
+    background-color: rgba(194, 4, 169, 0.849);
+}
+
+/***footer-container**/
+.footer-container{
+    width: 100%;
+    color: #fff;
+    background-color: black;
+    padding: 10px 0px;
+}
+.sub-footer{
+    margin: 10px 10px;
+}
+.icons{
+    float: right;
+    margin: 0 20px;
+}
+.icons i{
+    margin: 0 6px;
+}
+@media only screen and (max-width:752px) {
+
+
+    .navbar h2{
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+        margin: 25px 10px;
+        
+    }
+    .navlink, a{
+        display: none;
+    }
+
+    /**hambuger**/
+    
+            .hambuger {
+                display: block;
+                float: right;
+                margin:10px ;
+                cursor: pointer;
+                place-content: center;
+            }
+        .nav{
+            width: 350px;
+            padding: 10px;
+            float: right;
+        }
+        .bar1, .bar2, .bar3{
+            width: 40px;
+            height: 5px;
+            background-color: black;
+            margin: 5px 0;
+            transition: 0.4s;
+            display: block;
+        }
+        .change .bar1{
+            background-color: #fff;
+            transform:  translate(0, 10px) rotate(45deg);
+        }
+        .change .bar2{
+            opacity: 0;
+        }
+        .change .bar3{
+            background-color: #fff;
+            transform: translate(0, -10px) rotate(-45deg);
+        }
+        .nav a{
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 10px;
+            display: block;
+            margin: 0px 0;
+            transition: 0.4s;
+        }
+        .ham{
+            margin: 0px 0;
+            padding: 10px 10px;
+        }
+        .hambuger-bars{
+            
+            margin: 0px 0;
+            padding: 10px 10px;
+            position: fixed;
+            right: 0;
+            top: 0;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px 0px;
+            gap: 10px;
+        }
+        .active{
+            color: #fff;
+            margin: 0px 0;
+            text-align: left;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .drimage{
+            width: 10%;
+            height: 30px;
+            border-radius: 100px;
+            margin: 0 10px;
+        }
+        .navlist{
+            color: #fff;
+            display: none;
+            box-shadow: opx 8px 16px 0px rgb(0, 0, 0, 0.2);
+            z-index: 1;
+            cursor: pointer;
+            background-color: black;
+            padding: 10px 0;
+            
+            
+        }
+        .navlist a{
+            color: #fff;
+            list-style: none;
+            margin: 0px 10px;
+            text-decoration: none;
+            padding: 10px 10px;
+            display: block;
+            transition: 0.4s;  
+             
+        }
+        .navlist a:hover{
+            color: #ffff;
+            background-color: rgb(10, 199, 189);
+            border-radius: 5px;
+            padding: 10px 5px;
+            margin: 20px 10px;
+        }
+        .activo{
+            background-color: rgb(5, 159, 170);
+            border-radius: 5px;
+        }
+        .show{
+            display: block;
+        }
+    .header-container{
+        display: block;
+    }
+    /***top-container**/
+     .top-container{
+        display: block;
+     }
+     .top-container img{
+        width: 100%;
+        height: auto;
+     }
+    /***middle-container***/
+   .middle-container{
+        display: block;
+        padding: 20px 0;
+        
+    }
+        .sub-middle-cont{
+            width:100%;
+            margin:0;
+            background-color: transparent;
+            padding: 10px 0;
+        }
+        .sub-middle-cont img{
+            width: 100%;
+        }
+        .sub-middle-cont {
+            text-align: left;
+        }
+        .sub-middle-cont p{
+            color: black;
+            
+            text-align: left;
+            margin: 20px 0;
+        }
+        .btn-policy{
+            color: #fff;
+            background-color: rgb(148, 6, 129);
+            padding: 10px 20px;
+            border: none;
+            margin: 20px 0;
+            text-decoration: none;
+            
+        }
+        .btn3{
+            
+            text-align: center;
+            background-color: green;
+            
+        }
+
+        /**middle-nation**/
+        .btn4{
+            
+        }
+        /**drive-change**/
+        .drive-change{
+            width: 60%;
+            font-size: 28px;
+            text-align: center;
+            margin: 10px auto;
+            
+        }
+        /**advocacy-container**/
+        .advocacy-container{
+            display: block;
+            margin: 20px 0;
+        }
+        .advocacy-card{
+            margin: 20px 0;
+            padding: 15px 0;
+        }
+        .advocacy-card p{
+            color: rgba(0, 0, 0, 0.651);
+        }
+        .btn-drive{
+            color: #fff;
+            background-color: rgb(148, 6, 129);
+            padding: 10px 15px;
+            border: none;
+            margin: 20px 0;
+            text-decoration: none;
+        }
+        /**bottom-container**/
+        .bottom-container{
+            display: block;
+        }
+        .sub-bottom, h2, p{
+            width: 100%;
+            
+        }
+        .sub-bottom h2{
+            font-size: 35px;
+        }
+        .sub-bottom p{
+            font-size: 20px;
+        }
+        
+}
