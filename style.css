@@ -325,7 +325,11 @@ header{
         display: none;  this was the course of the problem  you were adding display: none; to the navlink and it applies globally
     } */
 
-    .navbar .navlink a {
+    .navlink {
+    display: none;
+}
+
+.navlink a {
     display: none;
 }
 
